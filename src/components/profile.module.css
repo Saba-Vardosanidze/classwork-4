@@ -1,0 +1,42 @@
+.profileContainer {
+  width: 300px;
+  height: 250px;
+  border-radius: 30px;
+  border: 3 px solid #1f1f1f;
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.profileShownButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px #2980b9;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+}
+
+.profileShownButton:active {
+  box-shadow: 0 2px #2980b9;
+  transform: translateY(2px);
+}
+.invalidProfile {
+  color: red;
+}
+.descriptionContainer h3 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.descriptionContainer p {
+  text-align: center;
+  color: #999999;
+}
